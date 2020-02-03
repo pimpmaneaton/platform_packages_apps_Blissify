@@ -41,24 +41,22 @@
 
     <PreferenceCategory
         android:key="navigation_bar_category"
-        android:title="@string/navigation_bar_category" >
+        android:title="@string/navigation_bar_category" 
+        android:icon="@drawable/ic_doubletap">
 
         <lineageos.preference.LineageSystemSettingSwitchPreference
             android:key="navigation_bar_menu_arrow_keys"
-            android:icon="@drawable/ic_nav_buttons"
             android:title="@string/navigation_bar_arrow_keys_title"
             android:summary="@string/navigation_bar_arrow_keys_summary"
             android:defaultValue="false" />
 
        <com.bliss.support.preferences.SecureSettingSwitchPreference
             android:key="navbar_inverse_layout"
-            android:icon="@drawable/ic_nav_buttons"
             android:title="@string/navigation_bar_invert_layout_title"
             android:defaultValue="false" />
 
         <ListPreference
             android:key="navigation_home_long_press"
-            android:icon="@drawable/ic_doubletap"
             android:dialogTitle="@string/navigation_bar_home_long_press_title"
             android:title="@string/navigation_bar_home_long_press_title"
             android:entries="@array/hardware_keys_action_entries"
@@ -67,7 +65,6 @@
 
         <ListPreference
             android:key="navigation_home_double_tap"
-            android:icon="@drawable/ic_doubletap"
             android:dialogTitle="@string/navigation_bar_home_double_tap_title"
             android:title="@string/navigation_bar_home_double_tap_title"
             android:entries="@array/hardware_keys_action_entries"
@@ -76,7 +73,6 @@
 
         <ListPreference
             android:key="navigation_app_switch_long_press"
-            android:icon="@drawable/ic_doubletap"
             android:dialogTitle="@string/navigation_bar_app_switch_long_press_title"
             android:title="@string/navigation_bar_app_switch_long_press_title"
             android:entries="@array/hardware_keys_action_entries"
@@ -87,24 +83,22 @@
 
     <PreferenceCategory
         android:key="power_key"
-        android:title="@string/hardware_keys_power_key_title" >
+        android:title="@string/hardware_keys_power_key_title" 
+        android:icon="@drawable/ic_power" >
 
         <PreferenceScreen
             android:key="power_menu"
-            android:icon="@drawable/ic_power"
             android:title="@string/power_menu_title"
             android:fragment="com.blissroms.blissify.fragments.buttons.PowerMenuActions" />
 
         <SwitchPreference
             android:key="power_end_call"
-            android:icon="@drawable/ic_call_options"
             android:title="@string/power_end_call_title"
             android:summary="@string/power_end_call_summary"
             android:persistent="false"/>
 
         <lineageos.preference.LineageSystemSettingSwitchPreference
             android:key="torch_long_press_power_gesture"
-            android:icon="@drawable/ic_power"
             android:title="@string/torch_long_press_power_gesture_title"
             android:summary="@string/torch_long_press_power_gesture_desc"
             android:defaultValue="false"
@@ -112,7 +106,6 @@
 
         <ListPreference
             android:key="torch_long_press_power_timeout"
-            android:icon="@drawable/ic_power"
             android:dialogTitle="@string/torch_long_press_power_timeout_title"
             android:title="@string/torch_long_press_power_timeout_title"
             android:entries="@array/torch_long_press_power_timeout_entries"
@@ -295,46 +288,41 @@
 
     <PreferenceCategory
         android:key="volume_keys"
-        android:title="@string/hardware_keys_volume_keys_title" >
+        android:title="@string/hardware_keys_volume_keys_title"
+        android:icon="@drawable/ic_volume" >
 
         <!-- Audio Panel view  -->
         <PreferenceScreen
             android:key="volume_panel"
-            android:icon="@drawable/ic_volume"
             android:title="@string/audio_panel_view_title"
             android:summary="@string/audio_panel_view_summary"
             android:fragment="com.blissroms.blissify.fragments.buttons.VolumePanel" />
 
         <Preference
             android:key="vol_steps"
-            android:icon="@drawable/ic_volume"
             android:title="@string/volume_steps_title"
             android:summary="@string/volume_steps_summary"
             android:fragment="com.blissroms.blissify.fragments.buttons.VolumeSteps" />
 
         <lineageos.preference.LineageSystemSettingSwitchPreference
             android:key="volume_wake_screen"
-            android:icon="@drawable/ic_prevent_accidental_wakeup"
             android:title="@string/button_wake_title"
             android:defaultValue="false" />
 
         <lineageos.preference.LineageSystemSettingSwitchPreference
             android:key="volume_answer_call"
-            android:icon="@drawable/ic_call_options"
             android:title="@string/volume_answer_call_title"
             android:summary="@string/volume_answer_call_summary"
             android:defaultValue="false" />
 
         <lineageos.preference.LineageSystemSettingSwitchPreference
             android:key="volbtn_music_controls"
-            android:icon="@drawable/ic_music_visualizer"
             android:title="@string/volbtn_music_controls_title"
             android:summary="@string/volbtn_music_controls_summary"
             android:defaultValue="true" />
 
         <ListPreference
             android:key="volume_key_cursor_control"
-            android:icon="@drawable/ic_volume"
             android:dialogTitle="@string/volbtn_cursor_control_title"
             android:title="@string/volbtn_cursor_control_title"
             android:entries="@array/volbtn_cursor_control_entries"
@@ -343,13 +331,11 @@
 
         <SwitchPreference
             android:key="swap_volume_buttons"
-            android:icon="@drawable/ic_volume"
             android:title="@string/swap_volume_buttons_title"
             android:summary="@string/swap_volume_buttons_summary" />
 
         <SwitchPreference
             android:key="volume_panel_on_left"
-            android:icon="@drawable/ic_volume"
             android:title="@string/volume_panel_on_left_title"
             android:summary="@string/volume_panel_on_left_summary" />
     </PreferenceCategory>
