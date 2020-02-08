@@ -1142,4 +1142,8 @@
     <string name="lockscreen_date_selection_str_half_gradient">Gradient (Transparent ending)</string>
     <string name="lockscreen_date_selection_str_half_accent">Accent (Transparent ending)</string>
 
+    <!-- FOD animations -->
+    <string name="fod_recog_animation">FOD recognizing animation</string>
+    <string name="fod_recog_animation_summary">Shows an animation while reading your finger</string>
+
 </resources>
