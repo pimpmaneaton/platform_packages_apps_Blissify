@@ -889,6 +889,8 @@
     <string name="pulse_ambient_auto_color_summary">Sets edge light color to the primary color of wallpaper</string>
     <string name="pulse_ambient_light_duration_title">Duration</string>
     <string name="pulse_ambient_light_duration_summary">Sets the ambient light animation duration</string>
+    <string name="pulse_ambient_light_repeat_count_title">Edge Light Repeat count</string>
+    <string name="pulse_ambient_light_repeat_count_summary">Set max repeat count. 0 for infinite</string>
 
     <!-- Hide Apps from Recents -->
     <string name="hafr_category_title">HAFR</string>
@@ -1145,6 +1147,8 @@
     <!-- FOD animations -->
     <string name="fod_recog_animation">Recognizing animation</string>
     <string name="fod_recog_animation_summary">Shows an animation while reading your finger</string>
+    <string name="fod_recog_animation_picker">Animation style</string>
+    <string name="fod_recog_animation_picker_summary">Select which animation to show</string>
     <string name="fod_recog_animation_effect_title">Recognizing animation effect</string>
     <string name="fod_recog_animation_miui_normal">MIUI default</string>
     <string name="fod_recog_animation_miui_aod">AOD</string>
