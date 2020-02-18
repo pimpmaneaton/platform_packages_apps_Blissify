@@ -54,6 +54,15 @@
         android:dependency="lockscreen_clock"
         android:defaultValue="4" />
 
+    <com.bliss.support.preferences.SystemSettingSeekBarPreference
+        android:key="lock_clock_font_size"
+        android:title="@string/clock_font_size_title"
+        android:dependency="lockscreen_clock"
+        android:max="108"
+        settings:min="54"
+        settings:units="dp"
+        android:defaultValue="58" />
+
     <com.bliss.support.preferences.SystemSettingSwitchPreference
         android:key="lockscreen_info"
         android:title="@string/lockscreen_info_title"
