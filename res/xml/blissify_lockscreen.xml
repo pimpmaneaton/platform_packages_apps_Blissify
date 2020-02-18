@@ -69,6 +69,15 @@
         android:dependency="lockscreen_info"
         android:defaultValue="0" />
 
+    <com.bliss.support.preferences.SystemSettingSeekBarPreference
+        android:key="lock_date_font_size"
+        android:title="@string/lock_date_font_size_title"
+        android:dependency="lockscreen_info"
+        android:max="25"
+        settings:min="10"
+        settings:units="dp"
+        android:defaultValue="18" />
+
     <com.bliss.support.preferences.SystemSettingListPreference
         android:key="lock_date_font_style"
         android:title="@string/date_font_style_title"
