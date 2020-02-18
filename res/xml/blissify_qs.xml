@@ -225,7 +225,7 @@
     <!-- QS Themes -->
     <PreferenceCategory
         android:title="@string/tile_options"
-        android:icon="@drawable/ic_blissify_qs">
+        android:icon="@drawable/ic_blissify_qs2">
 
     <com.bliss.support.preferences.SecureSettingSwitchPreference
         android:key="quick_settings_vibrate"
