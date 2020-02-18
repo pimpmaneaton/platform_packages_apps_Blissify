@@ -995,6 +995,7 @@
         <item>@string/font_ubuntu</item>
         <item>@string/font_grandhotel</item>
         <item>@string/font_redressed</item>
+        <item>@string/font_sfpro</item>
     </string-array>
 
     <string-array name="font_style_values" translatable="false">
@@ -1050,6 +1051,7 @@
         <item>49</item>
         <item>50</item>
         <item>51</item>
+        <item>52</item>
     </string-array>
 
     <!-- QS battery style  -->
