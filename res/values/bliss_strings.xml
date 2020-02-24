@@ -1286,4 +1286,11 @@
     <string name="theming_title">Styles &amp; Wallpapers</string>
     <string name="theme_select_title">Themes</string>
     <string name="theme_select_summary">Browse and select installed themes</string>
+
+    <string name="themeroom_title">Theme Room</string>
+    <string name="themeroom_summary">accent-gradient theming</string>
+    <string name="accent_color">Accent picker</string>
+    <string name="accent_summary">System wide accent maker</string>
+    <string name="gradient_color">Gradient picker</string>
+    <string name="gradient_summary">Gradient effect maker</string>
 </resources>
