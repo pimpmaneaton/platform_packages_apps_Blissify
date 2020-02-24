@@ -45,7 +45,7 @@
          android:key="theme_room"
          android:title="@string/themeroom_title"
          android:summary="@string/themeroom_summary"
-         android:fragment="com.android.settings.bliss.ThemeRoom" />
+         android:fragment="com.blissroms.blissify.fragments.themes.ThemeRoom" />
 
         <ListPreference
             android:key="android.theme.customization.primary_color"
