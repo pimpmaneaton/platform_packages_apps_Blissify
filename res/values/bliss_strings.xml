@@ -30,6 +30,7 @@
     <string name="blissify_gestures_title">Gestures</string>
     <string name="blissify_pixel_gestures_title">Pixel Gestures</string>
     <string name="blissify_notifications_title">Notifications</string>
+    <string name="blissify_themes_title">Themes</string>
     <string name="system_animation_category">System</string>
     <string name="misc_animation_title">Misc</string>
     <string name="toast_animation_category">Toast Animations</string>
@@ -890,14 +891,21 @@
     <!-- Ambient edge lighting -->
     <string name="notification_screen_title">Screen</string>
     <string name="pulse_ambient_light_title">Edge lighting</string>
-    <string name="pulse_ambient_light_summary">Light up the side edges of the screen on notification pulse</string>
+    <string name="pulse_ambient_light_summary">Show edge lighting on new notification</string>
     <string name="pulse_ambient_light_color_title">Edge light color</string>
-    <string name="pulse_ambient_auto_color_title">Auto color</string>
-    <string name="pulse_ambient_auto_color_summary">Sets edge light color to the primary color of wallpaper</string>
     <string name="pulse_ambient_light_duration_title">Duration</string>
     <string name="pulse_ambient_light_duration_summary">Sets the ambient light animation duration</string>
-    <string name="pulse_ambient_light_repeat_count_title">Edge Light Repeat count</string>
+    <string name="ambient_notification_light_enabled_title">Show edge lighting on AoD</string>
+    <string name="ambient_notification_light_enabled_summary">Show edge lighting on AoD on new notification</string>
+    <string name="ambient_notification_light_hide_aod_title">Hide AoD content</string>
+    <string name="ambient_notification_light_hide_aod_summary">Hide other AoD content while edge lighting is shown</string>
+    <string name="ambient_notification_light_accent_title">Use accent color for whatever</string>
+    <string name="ambient_notification_light_accent_summary">Follow system accent color instead of the user defined edge light color</string>
+    <string name="pulse_ambient_light_note">Wake screen on receiving new notifications must be turned on</string>
+    <string name="pulse_ambient_light_repeat_count_title">Repeat count</string>
     <string name="pulse_ambient_light_repeat_count_summary">Set max repeat count. 0 for infinite</string>
+    <string name="pulse_ambient_light_pulse_for_all_title">Pulse for all doze events</string>
+    <string name="pulse_ambient_light_pulse_for_all_summary">Pulses for all doze events and not just for notifications</string>
 
     <!-- Hide Apps from Recents -->
     <string name="hafr_category_title">HAFR</string>
@@ -1141,6 +1149,10 @@
     <string name="fod_pressed_state_icon_white">Icon (White)</string>
     <string name="fod_pressed_state_solid_color">Solid color (system accent)</string>
 
+    <!-- Launch music player when headset is connected -->
+    <string name="headset_connect_player_title">Launch music app on headset connection</string>
+    <string name="headset_connect_player_summary">Launch the default music app when headset is connected</string>
+
     <string name="lockscreen_clock_show_title">Show clock</string>
     <string name="lockscreen_clock_summary_on">Clock displayed</string>
     <string name="lockscreen_clock_summary_off">Clock hidden</string>
@@ -1192,10 +1204,6 @@
     <string name="fod_recog_animation_bluefirework">Blue Fireworks</string>
     <string name="fod_recog_animation_coloros7_1">ColorOS7 1</string>
     <string name="fod_recog_animation_coloros7_2">ColorOS7 2</string>
-
-    <!-- Launch music player when headset is connected -->
-    <string name="headset_connect_player_title">Launch music app on headset connection</string>
-    <string name="headset_connect_player_summary">Launch the default music app when headset is connected</string>
 
     <!-- QS SystemInfo -->
     <string name="qs_system_info_title">System Info</string>
@@ -1272,4 +1280,10 @@
     <string name="device_identifier_access_restrictions_title">Disable device identifier restrictions</string>
     <!-- Summary for the new device identifier access restrictions -->
     <string name="device_identifier_access_restrictions_summary">Disable the new access restrictions for device identifiers</string>
+
+    <!-- Themes -->
+    <string name="aosp_themeing_title">Aosp Themeing</string>
+    <string name="theming_title">Styles &amp; Wallpapers</string>
+    <string name="theme_select_title">Themes</string>
+    <string name="theme_select_summary">Browse and select installed themes</string>
 </resources>
