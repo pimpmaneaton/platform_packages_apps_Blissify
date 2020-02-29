@@ -72,6 +72,12 @@
         android:title="@string/lockscreen_clockdate_category">
 
     <com.bliss.support.preferences.SystemSettingSwitchPreference
+        android:key="left_align_view"
+        android:title="@string/left_align_view_title"
+        android:summary="@string/left_align_view_summary"
+        android:defaultValue="false" />
+
+    <com.bliss.support.preferences.SystemSettingSwitchPreference
         android:key="lockscreen_info"
         android:title="@string/lockscreen_info_title"
         android:summary="@string/lockscreen_info_summary"

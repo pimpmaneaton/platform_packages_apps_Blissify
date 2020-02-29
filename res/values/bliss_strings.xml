@@ -1313,4 +1313,8 @@
     <string name="navbar_visibility">Navigation bar</string>
     <string name="navbar_visibility_summary">Toggle navigation bar visibility</string>
 
+    <!-- Left align weather n slice -->
+    <string name="left_align_view_title">Left Align Date n Weather</string>
+    <string name="left_align_view_summary">Align Weather and Date View to Q-Clock</string>
+
 </resources>
