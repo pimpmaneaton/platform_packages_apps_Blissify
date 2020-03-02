@@ -904,8 +904,6 @@
     <string name="ambient_notification_light_accent_title">Use accent color for whatever</string>
     <string name="ambient_notification_light_accent_summary">Follow system accent color instead of the user defined edge light color</string>
     <string name="pulse_ambient_light_note">Wake screen on receiving new notifications must be turned on</string>
-    <string name="pulse_ambient_light_repeat_count_title">Repeat count</string>
-    <string name="pulse_ambient_light_repeat_count_summary">Set max repeat count. 0 for infinite</string>
     <string name="pulse_ambient_light_pulse_for_all_title">Pulse for all doze events</string>
     <string name="pulse_ambient_light_pulse_for_all_summary">Pulses for all doze events and not just for notifications</string>
 
@@ -1313,4 +1311,17 @@
     <string name="navbar_visibility">Navigation bar</string>
     <string name="navbar_visibility_summary">Toggle navigation bar visibility</string>
 
+    <!-- Pulse Timeout -->
+    <string name="ambient_notification_light_timeout_title">Timeout for light pulse</string>
+    <string name="entry_infinite">Infinite</string>
+    <string name="entry_ten_seconds">10 seconds</string>
+    <string name="entry_twenty_seconds">20 seconds</string>
+    <string name="entry_thirty_seconds">30 seconds</string>
+    <string name="entry_one_minute">1 minute</string>
+    <string name="entry_two_minute">2 minutes</string>
+    <string name="entry_five_minute">5 minutes</string>
+    <string name="entry_ten_minute">10 minutes</string>
+    <string name="entry_fifteen_minute">15 minutes</string>
+    <string name="entry_thirty_minute">30 minutes</string>
+    <string name="entry_sixty_minute">60 minutes</string>
 </resources>
